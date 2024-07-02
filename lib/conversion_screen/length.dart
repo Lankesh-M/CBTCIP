@@ -78,7 +78,7 @@ class _LengthConversionScreenState extends State<LengthConversionScreen> {
                         value: value,
                         child: Text(
                           value,
-                          style: TextStyle(
+                          style: const TextStyle(
                               color: Color.fromARGB(190, 195, 0, 255)),
                         ),
                       );

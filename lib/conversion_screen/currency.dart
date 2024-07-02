@@ -89,7 +89,7 @@ class _CurrencyConversionScreenState extends State<CurrencyConversionScreen> {
                         value: value,
                         child: Text(
                           value,
-                          style: TextStyle(
+                          style: const TextStyle(
                               color: Color.fromARGB(190, 195, 0, 255)),
                         ),
                       );
@@ -131,7 +131,7 @@ class _CurrencyConversionScreenState extends State<CurrencyConversionScreen> {
                         value: value,
                         child: Text(
                           value,
-                          style: TextStyle(
+                          style: const TextStyle(
                               color: Color.fromARGB(190, 195, 0, 255)),
                         ),
                       );
